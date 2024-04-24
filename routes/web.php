@@ -23,5 +23,8 @@ Route::get('/about', function () {
 Route::get('/home', function () {
     return view('about');
 });
+Route::get('/contact', function () {
+    return view('contatct');
+});
 
 
