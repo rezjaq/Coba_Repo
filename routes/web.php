@@ -26,5 +26,8 @@ Route::get('/home', function () {
 Route::get('/contact', function () {
     return view('contatct');
 });
+Route::get('/landing_page', function () {
+    return view('landing');
+});
 
 
